@@ -1,0 +1,16 @@
+.col{
+    padding: 1rem;
+    border: 2px solid #fff;
+
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+

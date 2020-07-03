@@ -1,0 +1,83 @@
+
+
+.top-pad{
+    padding: 8rem;
+    align-content: center;
+
+}
+
+.card-size{
+
+    height: 200px;
+}
+
+
+d-flex div{
+    padding: 1rem;
+    background-color: #33b5e5;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.example-parent{
+    border: 1px solid #999
+}
+
+.button-style{
+    padding: 5rem;
+    align-content: baseline;
+}
+
+
+.sparkles-style{
+
+    width: 100%;
+    height: auto;
+
+}
+
+.size-contain{
+    align-content: left;
+    width: 100px;
+    height: 170px;
+}
+
+
+.size-contain2{
+    align-content: center;
+    width: 150px;
+    height: 140px;
+}
+
+.texxt{
+    text-indent: -10px;
+}
+
+upload-style{
+    justify-content: left;
+    width: 100%;
+    height: auto;
+}
+
+.sparkles-name p{
+    position: relative;
+    top:60px;
+    padding: 16px;
+}
+
+.ui-card, .sparkles-name{
+    width: 100% !important;
+}
+
+.size-contain{
+    width: 30%!important;
+}
+
+.pendingPost{
+    
+}
+
+.spacee{
+    white-space:pre
+}

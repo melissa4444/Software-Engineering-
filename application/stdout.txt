@@ -1,0 +1,149 @@
+yarn run v1.19.1
+$ node app.js
+Listening on port 80
+Connected
+$2a$04$RYlD1thcaASU3zRub0/e..FzvvX0ZtcjrU7qkeoFfD4YcnkR0FeUO
+[0mPOST /api/login [32m201 [0m70.363 ms - 2[0m
+[
+  RowDataPacket {
+    user: 'amir',
+    firstName: 'Amir',
+    lastName: 'Anjomshoaa',
+    Street: 'asdsa',
+    City: 'San Francisco',
+    ZipCode: '95656',
+    email: 'ar.anjomshoaa@gmail.com',
+    password: '$2a$04$RYlD1thcaASU3zRub0/e..FzvvX0ZtcjrU7qkeoFfD4YcnkR0FeUO'
+  }
+]
+[0mPOST /api/db/clientInfo [32m200 [0m24.502 ms - 226[0m
+[0mGET /static/media/julio.d7fd9e0b.png [36m304 [0m10.478 ms - -[0m
+[
+  RowDataPacket {
+    id: 2,
+    clientUser: 'amir',
+    name: 'Tommy',
+    description: 'This is Tommy my Dog',
+    type: 'dog'
+  }
+]
+[0mPOST /api/db/petInfo [32m200 [0m16.310 ms - 95[0m
+[
+  RowDataPacket {
+    id: 3,
+    clientUser: 'amir',
+    datePosted: '2019-02-28T08:00:00.000Z',
+    dateRequested: '2019-02-23T08:00:00.000Z',
+    location: 'Ca',
+    active: 1,
+    type: 'cat',
+    name: 'Tommy',
+    worker: 'amir'
+  }
+]
+[0mPOST /api/db/getBooking [32m200 [0m37.248 ms - 184[0m
+[0mGET /static/media/dogAvatar.41aa651d.png [36m304 [0m0.595 ms - -[0m
+[
+  RowDataPacket {
+    id: 8,
+    clientUser: 'amir',
+    datePosted: '2020-01-08T08:00:00.000Z',
+    dateRequested: '2020-01-24T20:00:00.000Z',
+    location: 'Ca',
+    active: 0,
+    type: '',
+    name: '',
+    worker: null
+  }
+]
+[0mPOST /api/db/getPost [32m200 [0m22.584 ms - 174[0m
+[
+  RowDataPacket {
+    user: 'amir',
+    firstName: 'Amir',
+    lastName: 'Anjomshoaa',
+    Street: 'asdsa',
+    City: 'San Francisco',
+    ZipCode: '95656',
+    email: 'ar.anjomshoaa@gmail.com',
+    password: '$2a$04$RYlD1thcaASU3zRub0/e..FzvvX0ZtcjrU7qkeoFfD4YcnkR0FeUO'
+  }
+]
+[0mPOST /api/db/clientInfo [32m200 [0m22.465 ms - 226[0m
+[
+  RowDataPacket {
+    id: 2,
+    clientUser: 'amir',
+    name: 'Tommy',
+    description: 'This is Tommy my Dog',
+    type: 'dog'
+  }
+]
+[0mPOST /api/db/petInfo [32m200 [0m232.922 ms - 95[0m
+[
+  RowDataPacket {
+    id: 3,
+    clientUser: 'amir',
+    datePosted: '2019-02-28T08:00:00.000Z',
+    dateRequested: '2019-02-23T08:00:00.000Z',
+    location: 'Ca',
+    active: 1,
+    type: 'cat',
+    name: 'Tommy',
+    worker: 'amir'
+  }
+]
+[0mPOST /api/db/getBooking [32m200 [0m206.337 ms - 184[0m
+[
+  RowDataPacket {
+    id: 8,
+    clientUser: 'amir',
+    datePosted: '2020-01-08T08:00:00.000Z',
+    dateRequested: '2020-01-24T20:00:00.000Z',
+    location: 'Ca',
+    active: 0,
+    type: '',
+    name: '',
+    worker: null
+  }
+]
+[0mPOST /api/db/getPost [32m200 [0m15.032 ms - 174[0m
+[0mGET / [36m304 [0m0.866 ms - -[0m
+[0mGET /static/css/2.cf231f4b.chunk.css [36m304 [0m0.622 ms - -[0m
+[0mGET /static/css/main.69faaaf6.chunk.css [36m304 [0m1.014 ms - -[0m
+[0mGET /static/js/main.018769e4.chunk.js [36m304 [0m0.868 ms - -[0m
+[0mGET /static/js/2.7743d348.chunk.js [36m304 [0m15.074 ms - -[0m
+[0mGET /static/media/logo.a0c84385.png [36m304 [0m0.531 ms - -[0m
+[0mGET /static/media/Roboto-Light.69f8a061.woff2 [36m304 [0m0.699 ms - -[0m
+[0mGET /static/media/fa-solid-900.44d537ab.woff2 [36m304 [0m3.271 ms - -[0m
+[0mGET /static/media/Roboto-Regular.2751ee43.woff2 [36m304 [0m6.887 ms - -[0m
+[0mGET /static/media/Roboto-Medium.574fd0b5.woff2 [36m304 [0m2.029 ms - -[0m
+$2a$04$3yGYwR7KQK8qI.KxzEcOuemFhpP0dVIgLh7v403CX9EaudpWfGQ8u
+[0mPOST /api/login [32m201 [0m17.832 ms - 2[0m
+[0mGET /static/media/joe.6f2bab19.png [32m200 [0m2.296 ms - 19935[0m
+[0mGET / [32m200 [0m1.448 ms - 2936[0m
+[0mHEAD / [32m200 [0m0.958 ms - 2936[0m
+[0mGET / [32m200 [0m1.067 ms - 2936[0m
+[0mGET / [32m200 [0m1.003 ms - 2936[0m
+[0mGET /static/css/main.69faaaf6.chunk.css [32m200 [0m2.185 ms - 6493[0m
+[0mGET /static/js/main.018769e4.chunk.js [32m200 [0m15.066 ms - 112967[0m
+[0mGET /static/css/2.cf231f4b.chunk.css [32m200 [0m0.805 ms - 1204504[0m
+[0mGET /static/js/2.7743d348.chunk.js [32m200 [0m15.009 ms - 1765429[0m
+[0mGET /static/media/logo.a0c84385.png [32m200 [0m0.749 ms - 14100[0m
+[0mGET /static/media/Roboto-Light.69f8a061.woff2 [32m200 [0m0.764 ms - 49380[0m
+[0mGET /static/media/Roboto-Regular.2751ee43.woff2 [32m200 [0m3.889 ms - 49236[0m
+[0mGET /static/media/fa-solid-900.44d537ab.woff2 [32m200 [0m3.785 ms - 75728[0m
+[0mGET /static/media/Roboto-Medium.574fd0b5.woff2 [32m200 [0m11.139 ms - 50224[0m
+[0mGET /public/logo.png [33m404 [0m191.959 ms - 1610[0m
+[0mGET / [32m200 [0m0.608 ms - 2936[0m
+[0mGET /static/css/main.69faaaf6.chunk.css [32m200 [0m0.758 ms - 6493[0m
+[0mGET /static/js/main.018769e4.chunk.js [32m200 [0m1.175 ms - 112967[0m
+[0mGET /static/css/2.cf231f4b.chunk.css [32m200 [0m0.858 ms - 1204504[0m
+[0mGET /static/js/2.7743d348.chunk.js [32m200 [0m1.210 ms - 1765429[0m
+[0mGET /static/media/logo.a0c84385.png [32m200 [0m0.960 ms - 14100[0m
+[0mGET /static/media/Roboto-Light.69f8a061.woff2 [32m200 [0m2.001 ms - 49380[0m
+[0mGET /static/media/fa-solid-900.44d537ab.woff2 [32m200 [0m1.510 ms - 75728[0m
+[0mGET /static/media/Roboto-Medium.574fd0b5.woff2 [32m200 [0m25.923 ms - 50224[0m
+[0mGET /static/media/Roboto-Regular.2751ee43.woff2 [32m200 [0m6.541 ms - 49236[0m
+[0mGET /public/logo.png [33m404 [0m23.343 ms - 1610[0m
+[0mGET / [32m200 [0m0.883 ms - 2936[0m

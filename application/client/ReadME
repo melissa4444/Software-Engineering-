@@ -1,0 +1,16 @@
+to install npm
+npm install --save react react-dom
+
+create the app
+npx-create-react-app my-app
+cd my-app
+npm start
+or
+npm run build
+
+in terminal
+cd my-app
+install npms
+    npm install react react-dom
+    npm install --save react-mdl
+    npm install --save react-router-dom
